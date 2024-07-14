@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    position: relative;
+    height: 80px;
+    width: 100%;
+
+}
+
+nav .container-fluid {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 180px;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.nav-item p {
+    color: #000;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    background: #fff;
+    color: #0dda8b !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.dropdown-menu p {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.location-box {
+    border-radius: 20px;
+    border-color: #0dda8b;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu ul li {
+    padding: px;
+    margin: 10px;
+
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    margin-left: 10px;
+}
+
+.navbar-nav input {
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 6px;
+    border-color: #000;
+}
+
+.navbar-nav .btn {
+    height: 45px;
+    color: #fff;
+    background-color: #2a995c;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* -----------------------------subnav------------------ */
+#sub-nav {
+    background-image: linear-gradient(to right, #160c46, #8676e2);
+    position: relative;
+    height: 40px;
+    /* width: 100%; */
+}
+
+#sub-nav ul li {
+    display: inline-flex;
+}
+
+.menu {
+    margin-left: 100px;
+    height: 40px;
+    width: 100%;
+    margin-top: 4px;
+
+}
+
+.menu ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 6px;
+    
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: #01ff9e;
+    padding-left: 400px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ----------------------home page */
+
+#home-page {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.image img {
+    height: 500px;
+    width: 1150px;
+    margin: 50px 100px;
+    padding-left: 22px;
+}
+/* ===================================native====================== */
+#native ul {
+    margin-left: 100px;
+}
+
+#native ul li {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-flex;
+    padding-left: 0;
+}
+
+#native ul li a {
+    color: #0dda8b;
+    cursor: pointer;
+    padding-left: 22px;
+}
+
+.native-info h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    font-weight: 500;
+    padding: 22px;
+}
+
+.native-info p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    padding-left: 22px;
+}
+/* ---------------shop section------------ */ 
+#shop{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop-section ul{
+    margin-left: 100px;
+    margin-left: 100px;
+}
+.shop-section ul li {
+    display: inline-flex;
+}
+
+.shop-section ul li a img{
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    
+}
+/* ----------------paan section------------ */
+.paan ul {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.paan ul li{
+    display: inline-flex;
+}
+.paan ul li img {
+    height: 50px;
+    width: 60px;
+    justify-content: space-around;
+   
+}
+
+/* ------------------grosery setction--------- */
+
+#grocery {
+    background-color: #f5f6f7; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.grp ul  {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.grp ul li{
+    display: inline-flex;
+}
+
+.grp ul li a img {
+    height: 200px;
+    width: 250px;
+  justify-content: space-evenly;
+    cursor: pointer;
+
+}
+.grp h1{
+    margin-left: 100px;
+    padding-left: 22px;
+}
+/* ----------------------mobile app section--------- */
+#download{
+    margin-top: 30px;
+
+}
+.row{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mobile img {
+    float: right;
+    height: 250px;
+    width: auto;
+}
+.appstore{
+    padding-top: 150px;
+}
+.appstore ul li{
+    display: inline-flex;
+
+}
+
+
